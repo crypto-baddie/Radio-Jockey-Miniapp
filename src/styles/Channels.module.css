@@ -1,0 +1,40 @@
+.container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.channelList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.channelCard {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.joinButton {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.createButton {
+  display: block;
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #ff4757;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
