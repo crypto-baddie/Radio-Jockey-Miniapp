@@ -1,0 +1,16 @@
+{
+  "name": "farcaster-radio-jockey",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^13.4.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "farcaster-js": "^0.1.2",
+    "react-icons": "^4.8.0"
+  }
+}
