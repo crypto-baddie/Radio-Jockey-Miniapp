@@ -1,0 +1,40 @@
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.playButton {
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.playButton:hover {
+  transform: scale(1.05);
+}
+
+.playButton.playing {
+  background: #ff4757;
+}
+
+.backLink {
+  margin-top: 2rem;
+}
+
+.backLink a {
+  color: #666;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.backLink a:hover {
+  text-decoration: underline;
+}
